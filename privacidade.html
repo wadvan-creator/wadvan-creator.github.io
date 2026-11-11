@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Política de Privacidade do app Leve, em conformidade com a LGPD. Explica quais dados são tratados, onde ficam e como exercer seus direitos.">
+  <meta name="theme-color" content="#9C86D9">
+  <title>Política de Privacidade — Leve</title>
+  <link rel="icon" href="favicon-32.png" type="image/png" sizes="32x32">
+  <link rel="icon" href="favicon-48.png" type="image/png" sizes="48x48">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip" href="#conteudo">Ir para o conteúdo</a>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="index.html">
+        <img src="logo.svg" width="40" height="40" alt="">
+        <span>Leve</span>
+      </a>
+      <input type="checkbox" id="nav-toggle" class="nav-toggle">
+      <label for="nav-toggle" class="nav-button" aria-label="Abrir o menu">
+        <span></span><span></span><span></span>
+      </label>
+      <nav class="site-nav" aria-label="Principal">
+        <a href="index.html">Início</a>
+        <a href="privacidade.html" aria-current="page">Privacidade</a>
+        <a href="termos.html">Termos de uso</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="conteudo" class="legal">
+    <div class="prose-wrap legal-hero">
+      <p class="update">Última atualização: 11 de novembro de 2026</p>
+      <h1>Política de Privacidade</h1>
+      <p class="lead">Esta política descreve como o app Leve e este site tratam dados pessoais, de acordo com a Lei nº 13.709/2018 (LGPD) e com o funcionamento atual do app (versão 1.0.0). Não reivindicamos recursos que ainda não existem: por exemplo, nesta versão não há backup na nuvem, cobrança de assinatura, anúncios nem ferramentas de análise.</p>
+    </div>
+
+    <div class="prose-wrap">
+      <nav class="toc" aria-label="Índice">
+        <strong>Neste documento</strong>
+        <ol>
+          <li><a href="#controlador">Quem é o controlador</a></li>
+          <li><a href="#publico">A quem se destina</a></li>
+          <li><a href="#dados">Quais dados tratamos e onde ficam</a></li>
+          <li><a href="#finalidades">Finalidades e bases legais</a></li>
+          <li><a href="#sensiveis">Dados sensíveis</a></li>
+          <li><a href="#compartilhamento">Compartilhamento</a></li>
+          <li><a href="#retencao">Retenção</a></li>
+          <li><a href="#direitos">Seus direitos</a></li>
+          <li><a href="#exclusao">Como pedir a exclusão</a></li>
+          <li><a href="#seguranca">Segurança</a></li>
+          <li><a href="#site">Este site</a></li>
+          <li><a href="#alteracoes">Alterações</a></li>
+          <li><a href="#contato">Contato e ANPD</a></li>
+        </ol>
+      </nav>
+
+      <h2 id="controlador">1. Quem é o controlador</h2>
+      <p>O controlador dos dados pessoais tratados no Leve é <strong>Wadvan</strong>.</p>
+      <p>Para exercer direitos, tirar dúvidas ou pedir a exclusão da conta, escreva para <a href="mailto:wadvan616@gmail.com">wadvan616@gmail.com</a>.</p>
+
+      <h2 id="publico">2. A quem se destina</h2>
+      <p>O Leve é um app de bem-estar, organização e finanças pessoais voltado a mulheres de 25 a 45 anos. <strong>Não é dirigido a crianças nem a adolescentes com menos de 18 anos.</strong> Não coletamos, de forma intencional, dados de menores de 18 anos. Se você souber que uma pessoa menor de 18 anos criou uma conta, avise-nos pelo e-mail acima para que a conta seja excluída.</p>
+
+      <h2 id="dados">3. Quais dados tratamos e onde ficam</h2>
+      <p>O Leve é, nesta versão, <strong>local em primeiro lugar</strong> (local-first): o que você registra no dia a dia fica no próprio aparelho. A conta, se você criar uma, fica em um serviço de autenticação. São coisas diferentes, e explicamos as duas abaixo.</p>
+
+      <h3>3.1 Dados salvos no seu aparelho</h3>
+      <p>O app guarda no armazenamento local do aparelho (AsyncStorage), principalmente sob a chave <code>leve:v1</code>, o conteúdo que você cria e as configurações do app, por exemplo:</p>
+      <ul>
+        <li>perfil local (nome que você informa, tema visual, se o Leve+ está simulado como ativo, código de indicação gerado no aparelho e data de criação do perfil);</li>
+        <li>tarefas e compromissos (título, categoria, horários, status);</li>
+        <li>cofre de documentos (nome, tipo, validade, anotações e o endereço local da foto, se você fotografar ou escolher uma imagem);</li>
+        <li>entradas do diário (texto, data, e uma classificação simples de tom e sugestão, calculada no aparelho);</li>
+        <li>dados do ciclo menstrual (datas de início, duração informada, sintomas e humor do dia);</li>
+        <li>refeições (nome, tipo, estimativa de macros e o endereço local da foto, se houver);</li>
+        <li>gastos, receitas, metas e divisão de contas (valores, descrições, categorias e nomes das pessoas que você incluir na divisão);</li>
+        <li>desafios em que você entrou e os check-ins do período;</li>
+        <li>contadores locais, como usos diários da organização automática e sessões de bem-estar concluídas;</li>
+        <li>a indicação de que você escolheu “Continuar sem conta” (uma marca local, não uma conta no servidor).</li>
+      </ul>
+      <p>Fotos de documentos e de refeições permanecem no aparelho, como arquivos locais referenciados pelo app. Elas <strong>não são enviadas</strong> a um servidor nesta versão.</p>
+      <p>Esses registros <strong>não são sincronizados entre aparelhos</strong> e <strong>não têm backup na nuvem</strong> nesta versão, mesmo se você estiver com uma conta. Se você trocar ou perder o aparelho, ou apagar os dados do app, esse conteúdo se perde, salvo se você tiver um backup do próprio sistema do celular.</p>
+      <p>Se a sessão de login estiver ativa, o app também guarda no aparelho (via AsyncStorage, pelo cliente do Supabase) os tokens da sessão, para você continuar autenticada.</p>
+
+      <h3>3.2 Dados da conta (Supabase)</h3>
+      <p>Se você cria uma conta ou entra no app, tratamos dados de autenticação no <strong>Supabase Auth</strong>, serviço usado pelo Leve para login. O projeto está hospedado na região de <strong>São Paulo (sa-east-1)</strong>.</p>
+      <p>No cadastro por e-mail e senha, são enviados:</p>
+      <ul>
+        <li>o e-mail;</li>
+        <li>o nome que você informa no cadastro (armazenado nos metadados da conta, como <code>full_name</code>);</li>
+        <li>a senha, que transita de forma protegida para o Supabase e é armazenada lá de forma criptografada/hasheada. O app Leve <strong>não guarda a senha</strong> no aparelho.</li>
+      </ul>
+      <p>Também tratamos, quando aplicável:</p>
+      <ul>
+        <li>a confirmação do e-mail (um e-mail com link é enviado para você ativar a conta);</li>
+        <li>o pedido de redefinição de senha (um e-mail com link é enviado para criar uma nova senha);</li>
+        <li>dados técnicos da sessão de autenticação (identificador da usuária, provedor usado, tokens de acesso e de renovação, datas de criação e último acesso, conforme o serviço de autenticação).</li>
+      </ul>
+      <p>Os e-mails transacionais de confirmação e de redefinição de senha são enviados pela infraestrutura de e-mail do Supabase. O envio gratuito desse serviço tem limites de volume; um serviço de e-mail próprio poderá ser ligado no futuro, o que será refletido nesta política se isso alterar o tratamento.</p>
+      <p>Você pode usar o app <strong>sem criar conta</strong> (“Continuar sem conta”). Nesse caso, não é criada uma conta no Supabase; os registros ficam só no aparelho.</p>
+
+      <h3>3.3 Login com o Google</h3>
+      <p>Se você escolhe “Entrar com o Google” (ou criar a conta por ele), o Google autentica você e, por meio do Supabase, compartilha com o Leve dados associados a esse login. O app solicita o login com o provedor Google, sem pedir escopos extras além dos padrão de autenticação, que normalmente são <strong>openid</strong>, <strong>email</strong> e <strong>profile</strong>. Com isso, o Leve pode receber:</p>
+      <ul>
+        <li>nome;</li>
+        <li>endereço de e-mail;</li>
+        <li>foto de perfil.</li>
+      </ul>
+      <p>Na versão atual, o app exibe o nome e o e-mail da conta. A foto de perfil que o Google eventualmente envia pode ficar nos metadados da conta no Supabase, mas o app <strong>não usa essa foto</strong> como imagem de perfil: mostra uma inicial.</p>
+      <p>O uso da sua conta Google também se sujeita à <a href="https://policies.google.com/privacy">Política de Privacidade do Google</a>. Você pode gerenciar ou revogar o acesso de aplicativos na configuração da sua Conta Google.</p>
+
+      <h3>3.4 O que não fazemos nesta versão</h3>
+      <ul>
+        <li>não vendemos dados pessoais;</li>
+        <li>não exibimos anúncios e não usamos redes de publicidade;</li>
+        <li>não instalamos no app ferramentas de análise, pixels ou rastreadores de terceiros;</li>
+        <li>não enviamos os textos das tarefas, do diário, do ciclo, das refeições ou das finanças a um serviço de inteligência artificial ou a um servidor nosso — a organização de tarefas, a leitura do diário e as estimativas são feitas por regras no próprio aparelho;</li>
+        <li>não lemos automaticamente o conteúdo de documentos (não há OCR ligado);</li>
+        <li>não analisamos o conteúdo da foto da refeição para calcular nutrientes (a estimativa parte do texto que você escreve);</li>
+        <li>não enviamos notificações push;</li>
+        <li>não processamos pagamentos — a assinatura Leve+ e o marketplace ainda não cobram de verdade;</li>
+        <li>não operamos ainda um programa de indicação validado no servidor, nem desafios coletivos reais com outras pessoas (o progresso do desafio fica no aparelho; números de participantes exibidos são de exemplo).</li>
+      </ul>
+      <p>Se você resolve compartilhar um cartão da Cápsula do Tempo pelo recurso de compartilhar do próprio celular, esse conteúdo sai do aparelho por uma ação sua, para o destino que você escolher (por exemplo, uma conversa ou uma rede social). O Leve não publica isso automaticamente.</p>
+      <p>O app pode pedir permissão de câmera e de fotos para guardar documentos e refeições, e pode usar o ditado do teclado do celular (o microfone, nesse caso, é do sistema do aparelho, não de um reconhecimento de voz próprio do Leve enviado a um servidor nosso).</p>
+
+      <h2 id="finalidades">4. Finalidades e bases legais</h2>
+      <p>Tratamos dados pessoais para as finalidades abaixo, com as bases da LGPD indicadas:</p>
+      <ul>
+        <li><strong>Prestar o serviço do app</strong> (organizar tarefas, guardar o que você registra, mostrar telas e alertas internos): execução de contrato ou de procedimentos preliminares (art. 7º, V), e, no uso sem conta, o consentimento que se manifesta ao usar o app e registrar informações (art. 7º, I).</li>
+        <li><strong>Criar e manter a conta, autenticar, confirmar o e-mail e redefinir a senha</strong>: execução de contrato (art. 7º, V) e, quando necessário, consentimento (art. 7º, I).</li>
+        <li><strong>Login com o Google</strong>, apenas se você escolher esse caminho: consentimento (art. 7º, I).</li>
+        <li><strong>Dados de saúde e de bem-estar</strong> (ciclo, sintomas, humor, diário, refeições e fotos associadas), quando você decide registrá-los: consentimento específico (art. 11, I). Esses dados não são obrigatórios para criar a conta.</li>
+        <li><strong>Atender pedidos seus</strong> (acesso, correção, exclusão, informações) e cumprir deveres legais: cumprimento de obrigação legal ou regulatória (art. 7º, II) e, quando couber, exercício regular de direitos (art. 7º, VI).</li>
+        <li><strong>Segurança da autenticação</strong> (sessão, prevenção a abuso da conta): legítimo interesse, observado o art. 7º, IX, e o respeito aos seus direitos, ou execução de contrato, conforme o caso.</li>
+      </ul>
+      <p>Você pode recusar o cadastro e usar o app sem conta, ou recusar o login com o Google e entrar só com e-mail. Pode também não preencher ciclo, diário, fotos ou finanças. Sem a conta, alguns recursos de autenticação (como recuperar o acesso em outro aparelho) não estarão disponíveis; os registros, de qualquer forma, continuam só no aparelho nesta versão.</p>
+
+      <h2 id="sensiveis">5. Dados sensíveis</h2>
+      <p>Informações de saúde — em especial o ciclo menstrual, sintomas, humor, o texto do diário e registros de alimentação — são <strong>dados pessoais sensíveis</strong> pela LGPD. Elas ficam no aparelho e só existem se você as registrar. Não as enviamos a um servidor nesta versão e não as usamos para anúncio, scoring de crédito ou qualquer finalidade alheia ao funcionamento do recurso que você está usando.</p>
+      <p>Quando houver backup ou sincronização na nuvem, isso só será ativado com informação clara e com o seu consentimento, e esta política será atualizada antes disso.</p>
+      <div class="callout">O Leve não é um serviço de saúde, não faz diagnóstico e não substitui profissionais. As previsões de ciclo usam a média dos seus registros, podem errar e <strong>não servem como método contraceptivo</strong>. Em sofrimento intenso, ligue 188 (CVV) ou acesse cvv.org.br. Em emergência, ligue 192 (SAMU).</div>
+
+      <h2 id="compartilhamento">6. Compartilhamento</h2>
+      <p>Não vendemos dados pessoais. Nesta versão, o compartilhamento se limita ao necessário para autenticar quem escolhe ter uma conta:</p>
+      <ul>
+        <li><strong>Supabase</strong> (operador, para autenticação e envio dos e-mails de conta), com projeto na região de São Paulo (sa-east-1). A política do fornecedor está em <a href="https://supabase.com/privacy">supabase.com/privacy</a>.</li>
+        <li><strong>Google</strong>, somente se você entra com a conta Google, para realizar esse login. A política do Google está em <a href="https://policies.google.com/privacy">policies.google.com/privacy</a>.</li>
+      </ul>
+      <p>Podemos compartilhar dados se formos legalmente obrigados (por exemplo, por ordem de autoridade competente) ou para resguardar direitos em um processo, sempre nos limites da lei.</p>
+      <p>Quando a assinatura Leve+ e eventuais compras no app forem ligadas, os pagamentos deverão ser processados pela App Store (Apple) ou pelo Google Play, sob as políticas dessas lojas. Isso <strong>ainda não acontece</strong> nesta versão: não há cobrança real e não enviamos dados de cartão a ninguém.</p>
+      <p>O marketplace de profissionais e a venda de mini-cursos também ainda não operam de verdade (os conteúdos e nomes exibidos são de demonstração). Quando isso for ligado, os operadores de pagamento e os profissionais envolvidos serão identificados, e esta política será atualizada.</p>
+
+      <h2 id="retencao">7. Retenção</h2>
+      <ul>
+        <li><strong>Dados no aparelho:</strong> permanecem enquanto você não os apagar e enquanto o app estiver instalado (ou até o sistema do celular limpar o armazenamento do app). Você pode apagar tudo o que está no aparelho pelo botão “Apagar meus dados”, na área Leve+ / perfil. Desinstalar o app também remove, em regra, esse armazenamento local.</li>
+        <li><strong>Conta no Supabase</strong> (e-mail, nome, metadados de login, inclusive os eventualmente recebidos do Google, e dados de sessão no servidor): permanece até você pedir a exclusão pelo e-mail <a href="mailto:wadvan616@gmail.com">wadvan616@gmail.com</a>, ou até excluirmos a conta por outro motivo legítimo (por exemplo, se for de uma pessoa menor de 18 anos).</li>
+        <li><strong>Tokens de sessão no aparelho:</strong> enquanto você estiver autenticada. Ao sair da conta, a sessão local é encerrada.</li>
+        <li><strong>E-mails transacionais e registros de segurança do provedor de autenticação:</strong> pelo tempo em que o serviço os mantiver para operar o login e cumprir deveres legais, e pelo prazo necessário para atender a uma solicitação sua ou a uma obrigação legal.</li>
+      </ul>
+      <p>O botão “Apagar meus dados” <strong>apaga o conteúdo local e sai da conta, mas não exclui sozinho a conta no servidor</strong>. Para apagar a conta de autenticação, é preciso o pedido por e-mail, como no item 9.</p>
+
+      <h2 id="direitos">8. Seus direitos</h2>
+      <p>Nos termos da LGPD, você pode, a qualquer momento:</p>
+      <ul>
+        <li>confirmar se tratamos dados seus e <strong>acessar</strong> esses dados;</li>
+        <li><strong>corrigir</strong> dados incompletos, inexatos ou desatualizados;</li>
+        <li>pedir a <strong>anonimização, o bloqueio ou a eliminação</strong> de dados desnecessários, excessivos ou tratados em desconformidade com a lei;</li>
+        <li>pedir a <strong>portabilidade</strong>, observados os segredos comercial e industrial e a regulamentação aplicável;</li>
+        <li>pedir a <strong>eliminação</strong> dos dados tratados com base no consentimento, ressalvadas as hipóteses legais de conservação;</li>
+        <li>obter <strong>informação</strong> sobre entidades públicas e privadas com as quais o controlador realizou uso compartilhado;</li>
+        <li>obter informação sobre a possibilidade de não consentir e sobre as consequências da recusa;</li>
+        <li><strong>revogar o consentimento</strong>;</li>
+        <li>pedir a revisão de decisões automatizadas que afetem seus interesses, se isso vier a ocorrer (nesta versão, não tomamos decisões automatizadas com efeito jurídico ou equivalentes sobre você; as “análises” do diário e das tarefas são regras locais, para uso no próprio app);</li>
+        <li>apresentar reclamação à <strong>Autoridade Nacional de Proteção de Dados (ANPD)</strong>.</li>
+      </ul>
+      <p>Parte desses direitos você já exerce no próprio app: pode ver e editar o que registrou, mudar o nome do perfil, sair da conta e apagar os dados locais. Para a conta no servidor, use o e-mail de contato.</p>
+
+      <h2 id="exclusao">9. Como pedir a exclusão</h2>
+      <ol>
+        <li>No app, em Leve+ / perfil, use <strong>“Apagar meus dados”</strong> para remover do aparelho tarefas, documentos, diário, ciclo, finanças e configurações, e para sair da conta. Essa ação não tem volta no aparelho.</li>
+        <li>Para excluir a <strong>conta de autenticação</strong> no Supabase, envie um e-mail de <a href="mailto:wadvan616@gmail.com?subject=Exclusao%20da%20conta%20Leve">wadvan616@gmail.com</a> com o assunto “Exclusão da conta Leve”, informando o e-mail cadastrado. Podemos pedir uma confirmação razoável de que o pedido parte da titular da conta.</li>
+      </ol>
+      <p>Vamos responder e cumprir a solicitação nos prazos e nas condições da LGPD. Depois de excluída a conta, você não conseguirá entrar com ela de novo, a não ser que crie uma nova conta.</p>
+
+      <h2 id="seguranca">10. Segurança</h2>
+      <p>Adotamos medidas compatíveis com a natureza desta versão: o conteúdo do dia a dia permanece no aparelho; a senha não é armazenada pelo app; a comunicação com o Supabase se dá por conexão protegida (HTTPS); a chave usada no app é a chave pública (anon/publishable), não a chave de administração. Nenhuma medida elimina completamente riscos. Proteja o acesso ao seu celular e à sua senha. Se suspeitar de uso indevido da conta, redefina a senha e fale conosco.</p>
+
+      <h2 id="site">11. Este site</h2>
+      <p>O site institucional do Leve (estas páginas estáticas) <strong>não usa cookies, não instala rastreadores e não carrega scripts de terceiros</strong>. Não coletamos dados de navegação por ferramentas de análise. Se você nos escreve para o e-mail de contato, tratamos o endereço e o conteúdo da mensagem para responder ao pedido, na forma desta política.</p>
+
+      <h2 id="alteracoes">12. Alterações</h2>
+      <p>Esta política pode ser atualizada para refletir mudanças no app, na lei ou nos fornecedores. A data de “última atualização” aparece no topo desta página. Se a mudança for relevante — por exemplo, se passarmos a fazer backup na nuvem ou a processar pagamentos —, informaremos de forma destacada no app ou por e-mail, quando tivermos o seu e-mail, e pediremos um novo consentimento quando a lei exigir.</p>
+
+      <h2 id="contato">13. Contato e ANPD</h2>
+      <p>Controlador: <strong>Wadvan</strong><br>
+      E-mail: <a href="mailto:wadvan616@gmail.com">wadvan616@gmail.com</a></p>
+      <p>Você também pode recorrer à Autoridade Nacional de Proteção de Dados (ANPD): <a href="https://www.gov.br/anpd/">www.gov.br/anpd</a>.</p>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-grid">
+      <div>
+        <a class="brand" href="index.html">
+          <img src="logo.svg" width="40" height="40" alt="">
+          <span>Leve</span>
+        </a>
+        <p>App de bem-estar, organização e finanças. Controlador: Wadvan.</p>
+        <p><a href="mailto:wadvan616@gmail.com">wadvan616@gmail.com</a></p>
+      </div>
+      <div>
+        <h3>Páginas</h3>
+        <ul>
+          <li><a href="index.html">Início</a></li>
+          <li><a href="privacidade.html">Política de Privacidade</a></li>
+          <li><a href="termos.html">Termos de Uso</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Sobre este site</h3>
+        <p>Páginas institucionais do app Leve. Sem cookies e sem rastreadores.</p>
+        <p>Última atualização: 11 de novembro de 2026.</p>
+      </div>
+    </div>
+    <div class="wrap fineprint">© 2026 Leve. Todos os direitos reservados.</div>
+  </footer>
+</body>
+</html>
