@@ -27,6 +27,7 @@
         <a href="index.html">Início</a>
         <a href="privacidade.html" aria-current="page">Privacidade</a>
         <a href="termos.html">Termos de uso</a>
+        <a href="excluir-conta.html">Excluir conta</a>
       </nav>
     </div>
   </header>
@@ -35,7 +36,7 @@
     <div class="prose-wrap legal-hero">
       <p class="update">Última atualização: 11 de novembro de 2026</p>
       <h1>Política de Privacidade</h1>
-      <p class="lead">Esta política descreve como o app Leve e este site tratam dados pessoais, de acordo com a Lei nº 13.709/2018 (LGPD) e com o funcionamento atual do app (versão 1.0.0). Não reivindicamos recursos que ainda não existem: por exemplo, nesta versão não há backup na nuvem, cobrança de assinatura, anúncios nem ferramentas de análise.</p>
+      <p class="lead">Esta política descreve como o app Leve e este site tratam dados pessoais, de acordo com a Lei nº 13.709/2018 (LGPD) e com o funcionamento atual do app (versão 1.0.0). Não reivindicamos recursos que ainda não existem: nesta versão não há backup na nuvem, anúncios nem ferramentas de análise. Os registros do dia a dia, inclusive os dados de ciclo, ficam no aparelho. As assinaturas Leve+, quando contratadas, são processadas pelo Google Play (e, no futuro, pela App Store da Apple) e gerenciadas pelo RevenueCat, conforme explicado abaixo.</p>
     </div>
 
     <div class="prose-wrap">
@@ -71,7 +72,7 @@
       <h3>3.1 Dados salvos no seu aparelho</h3>
       <p>O app guarda no armazenamento local do aparelho (AsyncStorage), principalmente sob a chave <code>leve:v1</code>, o conteúdo que você cria e as configurações do app, por exemplo:</p>
       <ul>
-        <li>perfil local (nome que você informa, tema visual, se o Leve+ está simulado como ativo, código de indicação gerado no aparelho e data de criação do perfil);</li>
+        <li>perfil local (nome que você informa, tema visual, preferências e data de criação do perfil);</li>
         <li>tarefas e compromissos (título, categoria, horários, status);</li>
         <li>cofre de documentos (nome, tipo, validade, anotações e o endereço local da foto, se você fotografar ou escolher uma imagem);</li>
         <li>entradas do diário (texto, data, e uma classificação simples de tom e sugestão, calculada no aparelho);</li>
@@ -122,11 +123,21 @@
         <li>não lemos automaticamente o conteúdo de documentos (não há OCR ligado);</li>
         <li>não analisamos o conteúdo da foto da refeição para calcular nutrientes (a estimativa parte do texto que você escreve);</li>
         <li>não enviamos notificações push;</li>
-        <li>não processamos pagamentos — a assinatura Leve+ e o marketplace ainda não cobram de verdade;</li>
-        <li>não operamos ainda um programa de indicação validado no servidor, nem desafios coletivos reais com outras pessoas (o progresso do desafio fica no aparelho; números de participantes exibidos são de exemplo).</li>
+        <li>não recebemos nem armazenamos dados do seu cartão — as assinaturas Leve+ são processadas pelo Google Play (e, no futuro, pela App Store da Apple) e gerenciadas pelo RevenueCat, conforme o item 3.5; se o pagamento ainda não estiver conectado no seu aparelho, o app avisa e nenhuma cobrança é feita;</li>
+        <li>não operamos ainda a vitrine de profissionais, a venda de mini-cursos nem o programa Indique e Ganhe (esses recursos aparecem no app como “Em breve”, sem nomes, preços ou códigos ativos); os desafios salvam o seu progresso só no aparelho, sem números de participantes de outras pessoas.</li>
       </ul>
       <p>Se você resolve compartilhar um cartão da Cápsula do Tempo pelo recurso de compartilhar do próprio celular, esse conteúdo sai do aparelho por uma ação sua, para o destino que você escolher (por exemplo, uma conversa ou uma rede social). O Leve não publica isso automaticamente.</p>
       <p>O app pode pedir permissão de câmera e de fotos para guardar documentos e refeições, e pode usar o ditado do teclado do celular (o microfone, nesse caso, é do sistema do aparelho, não de um reconhecimento de voz próprio do Leve enviado a um servidor nosso).</p>
+
+      <h3 id="assinatura">3.5 Assinatura Leve+, Google Play e RevenueCat</h3>
+      <p>A assinatura opcional <strong>Leve+</strong> é processada pelo <strong>Google Play</strong> (e, no futuro, pela App Store da Apple) e gerenciada pelo <strong>RevenueCat</strong>, serviço que o Leve usa para confirmar se a sua assinatura está ativa e liberar os recursos correspondentes. O Leve não recebe nem armazena os dados do seu cartão: o pagamento fica com a loja.</p>
+      <p>Para essa finalidade, o RevenueCat pode receber:</p>
+      <ul>
+        <li>o identificador da sua conta no app (app user id);</li>
+        <li>comprovantes e transações da loja (recibos de compra e o estado da assinatura);</li>
+        <li>informações do aparelho e da plataforma (por exemplo, sistema operacional e identificadores técnicos necessários para validar a compra).</li>
+      </ul>
+      <p>A política do RevenueCat está em <a href="https://www.revenuecat.com/privacy">revenuecat.com/privacy</a>. A do Google, para compras no Google Play, está em <a href="https://policies.google.com/privacy">policies.google.com/privacy</a>. Se, no seu aparelho, o pagamento ainda não estiver conectado, o app informa isso e nenhuma cobrança é feita.</p>
 
       <h2 id="finalidades">4. Finalidades e bases legais</h2>
       <p>Tratamos dados pessoais para as finalidades abaixo, com as bases da LGPD indicadas:</p>
@@ -137,6 +148,7 @@
         <li><strong>Dados de saúde e de bem-estar</strong> (ciclo, sintomas, humor, diário, refeições e fotos associadas), quando você decide registrá-los: consentimento específico (art. 11, I). Esses dados não são obrigatórios para criar a conta.</li>
         <li><strong>Atender pedidos seus</strong> (acesso, correção, exclusão, informações) e cumprir deveres legais: cumprimento de obrigação legal ou regulatória (art. 7º, II) e, quando couber, exercício regular de direitos (art. 7º, VI).</li>
         <li><strong>Segurança da autenticação</strong> (sessão, prevenção a abuso da conta): legítimo interesse, observado o art. 7º, IX, e o respeito aos seus direitos, ou execução de contrato, conforme o caso.</li>
+        <li><strong>Gerenciar a assinatura Leve+</strong> (confirmar se está ativa, liberar os recursos e orientar o cancelamento na loja), quando você contrata: execução de contrato (art. 7º, V).</li>
       </ul>
       <p>Você pode recusar o cadastro e usar o app sem conta, ou recusar o login com o Google e entrar só com e-mail. Pode também não preencher ciclo, diário, fotos ou finanças. Sem a conta, alguns recursos de autenticação (como recuperar o acesso em outro aparelho) não estarão disponíveis; os registros, de qualquer forma, continuam só no aparelho nesta versão.</p>
 
@@ -146,23 +158,24 @@
       <div class="callout">O Leve não é um serviço de saúde, não faz diagnóstico e não substitui profissionais. As previsões de ciclo usam a média dos seus registros, podem errar e <strong>não servem como método contraceptivo</strong>. Em sofrimento intenso, ligue 188 (CVV) ou acesse cvv.org.br. Em emergência, ligue 192 (SAMU).</div>
 
       <h2 id="compartilhamento">6. Compartilhamento</h2>
-      <p>Não vendemos dados pessoais. Nesta versão, o compartilhamento se limita ao necessário para autenticar quem escolhe ter uma conta:</p>
+      <p>Não vendemos dados pessoais. O compartilhamento se limita ao necessário para autenticar quem escolhe ter uma conta e, quando você assina o Leve+, para processar e gerenciar essa assinatura:</p>
       <ul>
         <li><strong>Supabase</strong> (operador, para autenticação e envio dos e-mails de conta), com projeto na região de São Paulo (sa-east-1). A política do fornecedor está em <a href="https://supabase.com/privacy">supabase.com/privacy</a>.</li>
         <li><strong>Google</strong>, somente se você entra com a conta Google, para realizar esse login. A política do Google está em <a href="https://policies.google.com/privacy">policies.google.com/privacy</a>.</li>
+        <li><strong>Google Play</strong> (e, no futuro, a App Store da Apple), para processar a assinatura Leve+ quando você a contrata, sob as políticas da loja. O Leve não recebe os dados do seu cartão.</li>
+        <li><strong>RevenueCat</strong>, para gerenciar a assinatura e confirmar se ela está ativa. Recebe o identificador da sua conta no app, os comprovantes e transações da loja, e informações do aparelho e da plataforma, conforme o item 3.5. A política do fornecedor está em <a href="https://www.revenuecat.com/privacy">revenuecat.com/privacy</a>.</li>
       </ul>
       <p>Podemos compartilhar dados se formos legalmente obrigados (por exemplo, por ordem de autoridade competente) ou para resguardar direitos em um processo, sempre nos limites da lei.</p>
-      <p>Quando a assinatura Leve+ e eventuais compras no app forem ligadas, os pagamentos deverão ser processados pela App Store (Apple) ou pelo Google Play, sob as políticas dessas lojas. Isso <strong>ainda não acontece</strong> nesta versão: não há cobrança real e não enviamos dados de cartão a ninguém.</p>
-      <p>O marketplace de profissionais e a venda de mini-cursos também ainda não operam de verdade (os conteúdos e nomes exibidos são de demonstração). Quando isso for ligado, os operadores de pagamento e os profissionais envolvidos serão identificados, e esta política será atualizada.</p>
+      <p>A vitrine de profissionais, a venda de mini-cursos e o Indique e Ganhe ainda não operam e aparecem no app como “Em breve”, sem nomes, preços ou códigos. Quando forem ligados, os operadores de pagamento e os profissionais envolvidos serão identificados, e esta política será atualizada.</p>
 
       <h2 id="retencao">7. Retenção</h2>
       <ul>
         <li><strong>Dados no aparelho:</strong> permanecem enquanto você não os apagar e enquanto o app estiver instalado (ou até o sistema do celular limpar o armazenamento do app). Você pode apagar tudo o que está no aparelho pelo botão “Apagar meus dados”, na área Leve+ / perfil. Desinstalar o app também remove, em regra, esse armazenamento local.</li>
-        <li><strong>Conta no Supabase</strong> (e-mail, nome, metadados de login, inclusive os eventualmente recebidos do Google, e dados de sessão no servidor): permanece até você pedir a exclusão pelo e-mail <a href="mailto:wadvan616@gmail.com">wadvan616@gmail.com</a>, ou até excluirmos a conta por outro motivo legítimo (por exemplo, se for de uma pessoa menor de 18 anos).</li>
+        <li><strong>Conta no Supabase</strong> (e-mail, nome, metadados de login, inclusive os eventualmente recebidos do Google, e dados de sessão no servidor): permanece até você excluir a conta no app (botão “Excluir minha conta”), pedir a exclusão pelo caminho descrito em <a href="excluir-conta.html">Excluir conta</a>, ou até excluirmos a conta por outro motivo legítimo (por exemplo, se for de uma pessoa menor de 18 anos).</li>
         <li><strong>Tokens de sessão no aparelho:</strong> enquanto você estiver autenticada. Ao sair da conta, a sessão local é encerrada.</li>
         <li><strong>E-mails transacionais e registros de segurança do provedor de autenticação:</strong> pelo tempo em que o serviço os mantiver para operar o login e cumprir deveres legais, e pelo prazo necessário para atender a uma solicitação sua ou a uma obrigação legal.</li>
       </ul>
-      <p>O botão “Apagar meus dados” <strong>apaga o conteúdo local e sai da conta, mas não exclui sozinho a conta no servidor</strong>. Para apagar a conta de autenticação, é preciso o pedido por e-mail, como no item 9.</p>
+      <p>O botão “Apagar meus dados” <strong>apaga o conteúdo local e sai da conta, mas não exclui sozinho a conta no servidor</strong>. Para apagar a conta de autenticação, use “Excluir minha conta” no app ou o caminho alternativo do item 9 e da página <a href="excluir-conta.html">Excluir conta</a>.</p>
 
       <h2 id="direitos">8. Seus direitos</h2>
       <p>Nos termos da LGPD, você pode, a qualquer momento:</p>
@@ -178,13 +191,16 @@
         <li>pedir a revisão de decisões automatizadas que afetem seus interesses, se isso vier a ocorrer (nesta versão, não tomamos decisões automatizadas com efeito jurídico ou equivalentes sobre você; as “análises” do diário e das tarefas são regras locais, para uso no próprio app);</li>
         <li>apresentar reclamação à <strong>Autoridade Nacional de Proteção de Dados (ANPD)</strong>.</li>
       </ul>
-      <p>Parte desses direitos você já exerce no próprio app: pode ver e editar o que registrou, mudar o nome do perfil, sair da conta e apagar os dados locais. Para a conta no servidor, use o e-mail de contato.</p>
+      <p>Parte desses direitos você já exerce no próprio app: pode ver e editar o que registrou, mudar o nome do perfil, sair da conta, apagar os dados locais e excluir a conta. O caminho completo está em <a href="excluir-conta.html">Excluir conta</a>.</p>
 
       <h2 id="exclusao">9. Como pedir a exclusão</h2>
+      <p>O jeito principal é pelo próprio app. O passo a passo também está na página <a href="excluir-conta.html">Excluir conta</a>.</p>
       <ol>
-        <li>No app, em Leve+ / perfil, use <strong>“Apagar meus dados”</strong> para remover do aparelho tarefas, documentos, diário, ciclo, finanças e configurações, e para sair da conta. Essa ação não tem volta no aparelho.</li>
-        <li>Para excluir a <strong>conta de autenticação</strong> no Supabase, envie um e-mail de <a href="mailto:wadvan616@gmail.com?subject=Exclusao%20da%20conta%20Leve">wadvan616@gmail.com</a> com o assunto “Exclusão da conta Leve”, informando o e-mail cadastrado. Podemos pedir uma confirmação razoável de que o pedido parte da titular da conta.</li>
+        <li>No app, em Você &amp; Leve+ (perfil), toque em <strong>“Excluir minha conta”</strong>. Confirme a exclusão: isso apaga de forma permanente a sua conta de login (e-mail ou Google) e todos os dados salvos neste aparelho (tarefas, documentos, diário, ciclo, finanças e configurações). Essa ação não tem volta.</li>
+        <li>Se quiser só limpar o aparelho e manter a conta de login, use <strong>“Apagar meus dados”</strong>. Isso não exclui a conta no servidor.</li>
+        <li>Caminho alternativo: se não puder usar o app, envie um e-mail para <a href="mailto:wadvan616@gmail.com?subject=Exclusao%20da%20conta%20Leve">wadvan616@gmail.com</a> com o assunto “Exclusão da conta Leve”, informando o e-mail cadastrado. Podemos pedir uma confirmação razoável de que o pedido parte da titular da conta.</li>
       </ol>
+      <p><strong>Uma assinatura Leve+ não é cancelada</strong> ao excluir a conta ou apagar os dados. Cancele no Google Play, em assinaturas, para não ser cobrada de novo. No futuro, o cancelamento na App Store seguirá o mesmo princípio.</p>
       <p>Vamos responder e cumprir a solicitação nos prazos e nas condições da LGPD. Depois de excluída a conta, você não conseguirá entrar com ela de novo, a não ser que crie uma nova conta.</p>
 
       <h2 id="seguranca">10. Segurança</h2>
@@ -194,7 +210,7 @@
       <p>O site institucional do Leve (estas páginas estáticas) <strong>não usa cookies, não instala rastreadores e não carrega scripts de terceiros</strong>. Não coletamos dados de navegação por ferramentas de análise. Se você nos escreve para o e-mail de contato, tratamos o endereço e o conteúdo da mensagem para responder ao pedido, na forma desta política.</p>
 
       <h2 id="alteracoes">12. Alterações</h2>
-      <p>Esta política pode ser atualizada para refletir mudanças no app, na lei ou nos fornecedores. A data de “última atualização” aparece no topo desta página. Se a mudança for relevante — por exemplo, se passarmos a fazer backup na nuvem ou a processar pagamentos —, informaremos de forma destacada no app ou por e-mail, quando tivermos o seu e-mail, e pediremos um novo consentimento quando a lei exigir.</p>
+      <p>Esta política pode ser atualizada para refletir mudanças no app, na lei ou nos fornecedores. A data de “última atualização” aparece no topo desta página. Se a mudança for relevante — por exemplo, se passarmos a fazer backup na nuvem —, informaremos de forma destacada no app ou por e-mail, quando tivermos o seu e-mail, e pediremos um novo consentimento quando a lei exigir.</p>
 
       <h2 id="contato">13. Contato e ANPD</h2>
       <p>Controlador: <strong>Wadvan</strong><br>
@@ -219,6 +235,7 @@
           <li><a href="index.html">Início</a></li>
           <li><a href="privacidade.html">Política de Privacidade</a></li>
           <li><a href="termos.html">Termos de Uso</a></li>
+          <li><a href="excluir-conta.html">Excluir conta</a></li>
         </ul>
       </div>
       <div>
